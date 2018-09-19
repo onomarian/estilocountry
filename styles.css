@@ -1,0 +1,73 @@
+@font-face {
+    font-family: Grotesk;
+    src: url('fonts/hk-grotesk/HKGrotesk-Regular.ttf');
+}
+@font-face {
+    font-family: Grotesk;
+    src: url('fonts/hk-grotesk/HKGrotesk-Bold.ttf');
+	font-weight: bold;
+}
+@font-face {
+    font-family: Playfair;
+    src: url('fonts/playfair-display/PlayfairDisplay-Regular.ttf');
+}
+@font-face {
+    font-family: Playfair;
+    src: url('fonts/playfair-display/PlayfairDisplay-Bold.ttf');
+	font-weight: bold;
+}
+
+
+
+body{
+	font-family: 'Grotesk', sans-serif;
+	height: 1000px;
+	background-color: pink
+}
+main{
+	margin-top: 50px;
+	padding: 50px 0;
+}
+nav{
+	background-color: transparent;
+	text-transform: uppercase;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border: none !important;
+}
+@media (min-width: 992px){
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding-right: 1.5rem;
+		padding-left: 1.5rem;
+	}
+}
+
+#global-nav {
+	z-index: 9999;
+	height: 100px;
+	background: transparent;
+	color: #fff;
+	line-height: 150px;
+	-webkit-transition: height .5s, line-height .5s; /* Safari */
+	transition: height .5s, line-height .5s;
+}
+.scrolled-nav {
+	height: 60px !important;
+	line-height: 60px !important;
+	background: #324c5f;
+	color: #fff;
+}
+#logo{
+	display: block;
+	height: 80px;
+	width: 100px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.circulo{
+	background-image: url('img/logo_baja.png');
+}
+.letras{
+	background-image: url('img/logo_letras_baja.jpg');
+}
